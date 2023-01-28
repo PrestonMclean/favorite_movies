@@ -18,7 +18,8 @@
     $movie_arr = array(
         'id' => $movie->id,
         'title' => $movie->title,
-        'description' => $movie->description
+        'description' => $movie->description,
+        'genre' => $movie->genre
     );
 
     print_r(json_encode($movie_arr));

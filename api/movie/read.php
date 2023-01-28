@@ -24,7 +24,8 @@
             $movie_item = array(
                 'id' => $id,
                 'title' => $title,
-                'description' => $description
+                'description' => $description,
+                'rating' => $rating
             );
             array_push($movies_arr['data'], $movie_item);
         }

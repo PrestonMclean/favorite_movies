@@ -19,6 +19,7 @@
 
     $movie->title = $data->title;
     $movie->description = $data->description;
+    $movie->rating = $data->rating;
 
     if($movie->update()) {
         echo json_encode(
